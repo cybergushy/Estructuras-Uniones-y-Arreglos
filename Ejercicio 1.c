@@ -38,7 +38,7 @@ struct PELICULAS
 
 int menu()
 {
-  printf("Hola! Elige la opciÛn que deseas utilizar\n");
+  printf("Hola! Elige la opci√≥n que deseas utilizar\n");
   printf("1 - Escanear \n");
   printf("2 - Mostrar \n");
   printf("3 - Buscar\n");
@@ -62,7 +62,7 @@ scanf("%d", &opc);
           exit(0);
           break;
       default: 
-          printf("\nEsa no es una opciÛn v·lida, reinicia el programa.");
+          printf("\nEsa no es una opci√≥n v√°lida, reinicia el programa.");
     }
 }
 
